@@ -24,12 +24,14 @@ Your submitted program must setup at least one bus with a line assigned to it.
 
 ## Design
 Basic concept 
+
 ![Image1](./bin/concept.png)
 ## Domain diagram
 Line do all the work on all the routes running
 Routes store name and scheduleWithTimeAndStop
 Bus store rego currentstop and the same reference of scheduleWithTimeAndStop
 Stops store code and allbuses in the stop and the toString function
+
 ![Image1](./bin/domain_diagram.png)
 
 
